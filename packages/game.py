@@ -59,7 +59,7 @@ class Game:
 
         # add the results of dices roll in a array of dices
         for i in range(number):
-            dices.append(random.randint(2, 4))
+            dices.append(random.randint(1, 6))
 
         # return the dices
         return dices
